@@ -1,4 +1,45 @@
 body {
-    font-family: "Calibri"
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(45,45,45);
 }
+
+.clock {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: solid 5px green;
+    position: absolute;
+}
+
+.hand {
+    position: absolute;
+    right: 149px;
+    bottom: 149px; /* sets in the center point */
+}
+
+#seconds-hand {
+    height: 130px;
+    background: red;
+    width: 2px;
+    opacity: 50%;
+}
+
+#minutes-hand {
+    height: 110px;
+    background: white;
+    width: 2px;
+    opacity: 100%;
+}
+
+#hours-hand {
+    height: 90px;
+    background: grey;
+    width: 2px;
+    opacity: 100%;
+}
+
+
 

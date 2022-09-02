@@ -18,6 +18,7 @@ body {
     position: absolute;
     right: 149px;
     bottom: 149px; /* sets in the center point */
+    transform-origin: 0% 100%;
 }
 
 #seconds-hand {
@@ -39,6 +40,16 @@ body {
     background: grey;
     width: 2px;
     opacity: 100%;
+}
+
+#center {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    bottom: 140px;
+    left: 140px;
+    position: absolute;
 }
 
 

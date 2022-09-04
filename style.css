@@ -42,6 +42,28 @@ body {
     opacity: 100%;
 }
 
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    transform-origin: 0% 100%;
+    bottom: 150px;
+    right: 0px;
+    z-index: -10;
+}
+
+.inner-circle {
+    width: 270px;
+    height: 270px;
+    z-index: -5;
+    background-color: rgb(45, 45, 45);
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    border-radius: 130px;
+}
+
 #center {
     background-color: blue;
     width: 20px;
